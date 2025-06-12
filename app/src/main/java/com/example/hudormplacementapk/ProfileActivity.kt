@@ -47,9 +47,7 @@ class ProfileActivity : AppCompatActivity() {
         }
 
         // Icon button (placeholder action)
-        findViewById<ImageButton>(R.id.iconButton).setOnClickListener {
-            Toast.makeText(this, "Language change not implemented", Toast.LENGTH_SHORT).show()
-        }
+
     }
 
     private fun getUsername(studentId: String): String {
